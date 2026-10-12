@@ -41,11 +41,11 @@
         text-align: center;
         background-color: var(--bg-color);
     }
-    .title {
+    .navbar {
         grid-row: 1;
         grid-column: 1 / span 12;
     }
-    .navbar {
+    .title {
         grid-row: 2;
         grid-column: 1 / span 12;
     }
