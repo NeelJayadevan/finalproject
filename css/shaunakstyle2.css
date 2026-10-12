@@ -31,6 +31,7 @@
     }
     ul.nav a.active {
         color: red;
+        background-color: var(--heading-color);
     }
     body {
         background-color: var(--bg-color);
