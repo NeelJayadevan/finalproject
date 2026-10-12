@@ -1,0 +1,167 @@
+.nav {
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li {
+    float: left
+}
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul.nav a:hover {
+    background-color: gray;
+    color: lightblue;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    
+    text-align: center;
+}
+.grid-item2{
+   
+    text-align: center;
+}
+.nav-menu{
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+.main-img{
+    grid-row: 3;
+    grid-column: 3 / span 1;
+}
+.image{
+    max-width: 400px;
+    max-height: 700px;
+}
+.main1{
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    padding: 20px;
+}
+.main2{
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    padding: 20px;
+
+}
+.sidecontent{
+    grid-column: 1;
+    grid-row: 6 / span 2;
+    padding: 20px;
+    
+}
+
+.img2{
+    grid-row: 4;
+    grid-column: 3;
+    
+}
+
+.header {
+    grid-row: 2;
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.image{
+    max-width: 400px;
+    max-height: 700px;
+}
+.main12{
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    padding: 20px;
+}
+.main22{
+    grid-row: 5;
+    grid-column: 1 / span 2;
+    padding: 20px;
+}
+
+
+.support12{
+    grid-row: 4;
+    grid-column: 1 / span 1;
+    padding: 20px;
+    background-color: lightgray;
+}
+.support22{
+    grid-row: 4;
+    grid-column: 2 / span 1;
+    padding: 20px;
+    background-color: lightgray;
+}
+.sidenav2{
+    grid-column: 3;
+    grid-row: 3 / span 3;
+    padding: 20px;
+    background-color: gray;
+}
+
+
+
+
+
+    :root {
+        --bg-color: #FAF3DD;
+        --other-color: #C8D5B9;
+        --heading-color: #8FC0A9;
+    }
+    
+    
+    .nav {
+        list-style-type: none; /* removes bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        background-color: var(--other-color);
+        overflow: hidden;
+    }
+    ul.nav li {
+        float: left;
+    }
+    ul.nav li a {
+        color: black;
+        text-decoration: none; /*removes underline*/
+        padding: 14px 20px; 
+        display: block;
+        transition: 0.7s;
+    }
+    ul.nav a:hover {
+        background-color: var(--heading-color);
+        color: var(--other-color);
+        font-weight: bold;
+    }
+    body {
+        background-color: var(--bg-color);
+    }
+   
+    .navbar {
+        grid-row: 1;
+            grid-column: 1 / span 12; 
+    }
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        width: 100%;
+        background-color: var(--other-color);
+        color: black;
+        text-align: center;
+    }
