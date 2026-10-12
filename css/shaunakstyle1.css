@@ -29,6 +29,9 @@
         color: var(--other-color);
         font-weight: bold;
     }
+    ul.nav a.active {
+        color: red;
+    }
     body {
         background-color: var(--bg-color);
     }
