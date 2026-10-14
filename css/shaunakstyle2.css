@@ -29,6 +29,12 @@
         color: var(--other-color);
         font-weight: bold;
     }
+    .standardP {
+        font-size: 30px;
+    }
+    .supportP {
+        font-size: 17.5px;
+    }
     body {
         background-color: var(--bg-color);
     }
