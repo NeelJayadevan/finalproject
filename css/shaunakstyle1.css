@@ -6,6 +6,12 @@
     h1 {
         color: var(--heading-color);
     }
+    .standardP {
+        font-size: 30px;
+    }
+    .supportP {
+        font-size: 17.5px;
+    }
     .nav {
         list-style-type: none; /* removes bullet points */
         margin: 0;
