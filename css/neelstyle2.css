@@ -93,4 +93,12 @@
     img {
         border: 5px solid black;
         border-radius: 20%;
+        width: 450px;
+        height: 600px;
+    }
+    zoom-img {
+        transition: transform 0.3s ease; /* Smooth animation */
+    }
+    zoom-img:hover {
+        transform: scale(1.5); /* Enlarge by 1.5x */
     }
