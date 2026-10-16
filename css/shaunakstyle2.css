@@ -47,6 +47,14 @@
         text-align: center;
         background-color: var(--bg-color);
     }
+    .videogrid {
+        grid-row: 9;
+        grid-column: 6 / span 6;
+    }
+    .videodescription {
+        grid-row: 10;
+        grid-column: 6 / span 6;
+    }
     .navbar {
         grid-row: 1;
         grid-column: 1 / span 12;
