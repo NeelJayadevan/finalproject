@@ -96,9 +96,11 @@
         width: 450px;
         height: 600px;
     }
-    zoom-img {
-        transition: transform 0.3s ease; /* Smooth animation */
+    .zoom-effect {
+        width: 300px;
+        height: auto;
+        transition: transform 0.3s ease; 
     }
-    zoom-img:hover {
-        transform: scale(1.5); /* Enlarge by 1.5x */
+    .zoom-effect:hover {
+        transform: scale(1.15);
     }
