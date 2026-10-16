@@ -106,4 +106,18 @@ h1 {
   max-width: 250px;
   text-align: center;
   margin: auto;
+} /*NEW FEATURE*/
+
+.font3 {font-family: "bogart", sans-serif;
+font-weight: 100;
+font-style: normal; }
+
+.font2 { font-family: "bogart", sans-serif;
+font-weight: 500;
+font-style: normal; }
+
+.font1 {
+    font-family: "bogart", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
