@@ -100,3 +100,10 @@
     grid-row: 8;  
   grid-column: 1 / span 6 ; 
 }
+h1 {
+  outline-style: solid;
+  outline-color: #C8D5B9;
+  max-width: 250px;
+  text-align: center;
+  margin: auto;
+}
