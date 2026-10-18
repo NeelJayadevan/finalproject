@@ -14,19 +14,20 @@
         outline-style: solid; /*NEW FEATURE (though I initially saw it on Orla's page)*/
         outline-color: var(--other-color);
         margin: auto;
+        z-index: 1;
     }
     .front-image {
         grid-row: 3 / span 3;
-        grid-column: 7 / span 6;
+        grid-column: 1 / span 6;
         padding: 30px;
-        rotate: 3deg; /*NEW FEATURE*/
+        rotate: -3deg; /*NEW FEATURE*/
         z-index: 0; /*NEW FEATURE*/
     }
     .back-image {
         grid-row: 6 / span 3;
-        grid-column: 7 / span 6;
+        grid-column: 1 / span 6;
         padding: 30px;
-        rotate: -3deg; /*NEW FEATURE*/
+        rotate: 3deg; /*NEW FEATURE*/
         z-index: 0; /*NEW FEATURE*/
     }
     .in-front {
@@ -95,7 +96,7 @@
             <h2 class="small-headings">Conclusion</h2>
             <p class="standardP">Overall, this is a great snack--not if you want something healthy, but definitely if you want a salty snack or chip bag to top off your lunch.</p>
         </div>
-        <div class="videogrid grid-item">
+        <div class="videogrid grid-item" style="z-index: 1">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ptAFuW_C3yM?si=txG0EqpM7JCoOIiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="videodescription grid-item standardP">
