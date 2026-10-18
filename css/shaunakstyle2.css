@@ -5,6 +5,7 @@
     }
     h1 {
         color: var(--heading-color);
+        font-family: "avenir-next-world-heavy", sans-serif;
     }
     .nav {
         list-style-type: none; /* removes bullet points */
@@ -31,9 +32,11 @@
     }
     .standardP {
         font-size: 30px;
+        font-family: "slight-chance", sans-serif;
     }
     .supportP {
         font-size: 17.5px;
+        font-family: "adobe-caslon-pro", sans-serif;
     }
     body {
         background-color: var(--bg-color);
@@ -63,10 +66,14 @@
         grid-row: 3 / span 3;
         grid-column: 1 / span 6;
         padding: 30px;
+        font-family: "avenir-next-world", sans-serif;
     }
     .main-content-1 {
         grid-row: 6;
         grid-column: 1 / span 6;
+    }
+    .small-headings {
+        font-family: "avenir-next-world", sans-serif;
     }
     .reason-1 {
         grid-row: 7;
@@ -89,4 +96,5 @@
         background-color: var(--other-color);
         color: black;
         text-align: center;
+        z-index: 2; /*NEW FEATURE*/
     }

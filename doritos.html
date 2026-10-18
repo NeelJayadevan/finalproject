@@ -5,14 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doritos</title>
     <link rel="stylesheet" href="css/shaunakstyle1.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wrl7lsp.css">
 </head>
 <style>
     .title {
         grid-row: 2;
         grid-column: 1 / span 12;
-        outline-style: solid; /*NEW FEATURE*/
+        outline-style: solid; /*NEW FEATURE (though I initially saw it on Orla's page)*/
         outline-color: var(--other-color);
         margin: auto;
+    }
+    .front-image {
+        grid-row: 3 / span 3;
+        grid-column: 7 / span 6;
+        padding: 30px;
+        rotate: 3deg; /*NEW FEATURE*/
+        z-index: 0; /*NEW FEATURE*/
+    }
+    .back-image {
+        grid-row: 6 / span 3;
+        grid-column: 7 / span 6;
+        padding: 30px;
+        rotate: -3deg; /*NEW FEATURE*/
+        z-index: 0; /*NEW FEATURE*/
+    }
+    .in-front {
+        z-index: 1; /*NEW FEATURE*/
     }
 </style>
 <body>
@@ -37,7 +55,7 @@
         <div class="back-image grid-item">
             <img src="images/doritos back.jpg" width="500px" height="750px">
         </div>
-        <div class="nutrition-facts grid-item">
+        <div class="nutrition-facts grid-item in-front">
             <h2>Nutrition Facts</h2>
             <p>Nutrition information for a bag of this size</p>
             <ul style="list-style-type: none">
@@ -61,20 +79,20 @@
             <h1 style="color: red;">Contains Milk Ingredients</h1>
             <p>As you can see from this information, this is not the healthiest chip in the world. Its amount of cheese is negligible, it has various oils and dyes, and a decently high [but not overboard] quantity of fat and sodium in relation to the daily recommended value. Protein is also negligible, with this only having 4 grams for 260 calories and 13 grams of fat. It is tasty, but it is a good idea to eat it sparingly.</p>
         </div>
-        <div class="main-content-1 grid-item">
-            <h2>Two reasons why I enjoy this snack</h2>
+        <div class="main-content-1 grid-item in-front">
+            <h2 class="small-headings">Two reasons why I enjoy this snack</h2>
             <p class="standardP">Doritos Nacho Cheese Tortilla Chips are flavorful, satisfying chips that pair with any meal. They have a more vibrant taste than other chips--so you may not want them if you like simpler foods--but if you like nacho cheese, then this is an optimal chip to eat. The cool ranch flavor of Doritos is good too, but I chose to highlight this flavor as it is the best of the two in my opinion. <br><br> There are several reasons that explain the appeal of this snack, but there are two main reasons that I will cover.</p>
         </div>
-        <div class="reason-1 grid-item">
-            <h5>Reason 1: The taste</h5>
+        <div class="reason-1 grid-item in-front">
+            <h5 class="small-headings">Reason 1: The taste</h5>
             <p class="supportP">I discussed this above, but the taste of these chips is enjoyable. Some people may disagree if they dislike cheese, but I like cheese, and I imagine that many people won't agree. This obviously isn't made with real cheese--so don't use this as a protein source--but use them as an enjoyment source.</p>
         </div>
-        <div class="reason-2 grid-item">
-            <h5>Reason 2: The satisfication</h5>
+        <div class="reason-2 grid-item in-front">
+            <h5 class="small-headings">Reason 2: The satisfication</h5>
             <p class="supportP">This was also mentioned above, but I will go into more detail here. The elaborate taste of these chips, combined with the crunch that is characteristic of tortilla chips, creates a snack that can fit anywhere. It isn't suggested to have this often, since it isn't the healthiest, but an occasional grab allows for enjoyment and health to be balanced.</p>
         </div>
-        <div class="main-content-2 grid-item">
-            <h2>Conclusion</h2>
+        <div class="main-content-2 grid-item in-front">
+            <h2 class="small-headings">Conclusion</h2>
             <p class="standardP">Overall, this is a great snack--not if you want something healthy, but definitely if you want a salty snack or chip bag to top off your lunch.</p>
         </div>
         <div class="videogrid grid-item">
